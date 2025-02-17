@@ -1,0 +1,26 @@
+node_modules
+.env
+.idea
+# Hardhat files
+/cache
+/artifacts
+
+# TypeChain files
+/typechain
+/typechain-types
+
+# solidity-coverage files
+/coverage
+/coverage.json
+
+# Hardhat Ignition default folder for deployments against a local node
+ignition/deployments/chain-31337
+# # 忽略所有文件
+# *
+
+# # 但不忽略 contracts 文件夹
+# !contracts/
+# !contracts/**
+
+# # 但不忽略 README.md 文件
+# !README.md
